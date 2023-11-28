@@ -19,6 +19,16 @@ class Production {
         return $this->title;
     }
 
+    // metodo per impostare la lingua
+    public function getLanguage() {
+        return $this->language;
+    }
+
+    // metodo per ottenere il rating
+    public function getRating() {
+        return $this->rating;
+    }
+
 }
 
 ?>
