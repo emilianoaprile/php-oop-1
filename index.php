@@ -14,6 +14,11 @@ class Production {
         $this->rating = $rating;
     }
 
+    // metodo per ottenere il titolo
+    public function getTitle() {
+        return $this->title;
+    }
+
 }
 
 ?>
