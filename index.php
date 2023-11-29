@@ -31,4 +31,19 @@ class Production {
 
 }
 
+// creazione di due oggetti production
+$movie1 = new Production('The Big Short', 'English', 9.3);
+$movie2 = new Production('The Wolf of Wall Street', 'English', 9.5);
+
+// stampo in pagina i valori delle due produzioni
+echo "Titolo: " . $movie1->getTitle() . "<br>";
+echo "Lingua: " . $movie1->getLanguage() . "<br>";  
+echo "Rating: " . $movie1->getRating() . "<br>";
+
+echo "<br>";
+
+echo "Titolo: " . $movie2->getTitle() . "<br>";
+echo "Lingua: " . $movie2->getLanguage() . "<br>";  
+echo "Rating: " . $movie2->getRating() . "<br>";
+
 ?>
